@@ -118,11 +118,12 @@ main {
   display: grid;
   padding: 48px 0;
   gap: 1rem 30px;
+  justify-content: center;
 }
 @media screen and (min-width: 1024px) {
   .cards {
     grid-auto-flow: column;
-    height: 362px;
+    min-height: 362px;
   }
 }
 
